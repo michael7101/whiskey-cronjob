@@ -31,8 +31,8 @@ def get_whisky():
 
 
 def emailnew(df):
-    sender_email = "EMAIL1@gmail.com"
-    receiver_email = "EMAIL2@gmail.com"
+    sender_email = "michaeljean7101@gmail.com"
+    receiver_email = "michaeljean7101@gmail.com"
     password = creds.password
     message = MIMEMultipart("alternative")
     message["Subject"] = "New Whisky Today"
